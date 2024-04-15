@@ -35,7 +35,5 @@
                 "Wijzijnweb\\LaravelInertiaPermissions\\PermissionsServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
