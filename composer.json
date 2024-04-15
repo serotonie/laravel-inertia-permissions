@@ -11,8 +11,8 @@
     "homepage": "https://github.com/wijzijnweb/laravel-inertia-permissions",
     "license": "MIT",
     "require": {
-        "php": "^8.1",
-        "spatie/laravel-permission": "^5.0"
+        "php": "^8.2",
+        "spatie/laravel-permission": "^6.4"
     },
     "autoload": {
         "psr-4": {
