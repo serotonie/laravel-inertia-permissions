@@ -24,6 +24,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropForeign('permission_group_id');
+        Schema::table('permissions', function (Blueprint $table) {
+            $table->dropForeign('permission_group_id');
+        });
     }
 };
