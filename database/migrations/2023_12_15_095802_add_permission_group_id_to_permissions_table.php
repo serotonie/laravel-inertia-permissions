@@ -18,4 +18,12 @@ return new class extends Migration
                 ->nullOnDelete();
         });
     }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropForeign('permission_group_id');
+    }
 };
