@@ -24,16 +24,8 @@ class PermissionsServiceProvider extends ServiceProvider
                         'roles' => $user->roles->pluck('code'),
                     ];
                 }
-
                 return [];
-            },
-            'permissions' => function () {
-                return [
-                    'groups' => PermissionGroup::with('permissions')->get(),
-                    'permissions' => Permission::get(),
-                    'roles' => Role::get(),
-                ];
-            },
+            }
         ]);
     }
 }
